@@ -130,8 +130,8 @@ def explore_adds():
         
 
 url="https://www.facebook.com/login.php/"
-username="+923222866894"
-password="tututara"
+username="username"
+password="password"
 chrome_options = webdriver.ChromeOptions()
 prefs = {"profile.default_content_setting_values.notifications": 2}
 chrome_options.add_experimental_option("prefs", prefs)
